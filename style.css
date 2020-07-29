@@ -1,0 +1,44 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  /*   margin: 2em; */
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+div {
+  /*   border: 2em dashed red; */
+}
+
+img {
+  /*   width: 75%; */
+}
+
+/* class="header" */
+.header {
+  border: 2px dotted red;
+  display: flex;
+}
+.header ul li {
+  display: inline;
+}
+
+/* class="hero" */
+.hero {
+  text-align: center;
+}
+.buildcomputer {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.buildcomputer img {
+  display: block;
+  width: 50%;
+}
+p { 
+  font-size: 21px;}
